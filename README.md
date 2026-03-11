@@ -1,4 +1,4 @@
-# Urban_Mobility_Analysis_Bikeshare_Data_Exploration #
+# Urban Mobility Analysis: Bikeshare Data Exploration #
 
 ## Project Overview ##
 This project explores massive, multi-city transportation datasets to uncover urban mobility patterns and answer key questions about user behavior. Specifically, it analyzes bikeshare system data from three major U.S. cities: Washington, Chicago, and New York.
