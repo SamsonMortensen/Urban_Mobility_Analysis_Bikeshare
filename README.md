@@ -1,6 +1,7 @@
 # Urban Mobility Analysis: Bikeshare Data Exploration #
 
 ## Project Overview ##
+
 This project explores massive, multi-city transportation datasets to uncover urban mobility patterns and answer key questions about user behavior. Specifically, it analyzes bikeshare system data from three major U.S. cities: Washington, Chicago, and New York.
 
 ## Data Sources ##
@@ -13,10 +14,26 @@ washington.csv
 
 chicago.csv
 
-**Technologies Used**
-R Programming Language (Data Ingestion, Manipulation, and Statistical Summary)
+**Tools and Technologies Used**
 
-Jupyter Notebook (Development and Reporting Environment)
+* **Language:** Python, R Programming Language (Data Ingestion, Manipulation, and Statistical Summary)
+* **Libraries:** Pandas, NumPy, Time (Data Wrangling & Time-Series Analysis)
+* **Environment:** Jupyter Notebook / Terminal
+
+## The Problem ##
+
+In any intermodal network, the biggest operational bottleneck is a mismatch between asset availability and consumer demand. If a station is empty during rush hour, the network fails. The objective of this analysis is to:
+
+1. Process and standardize chaotic, high-volume time-series data across three distinct geographic regions.
+2. Identify peak usage times, popular routes, and high-traffic stations to understand where physical units need to be deployed.
+3. Calculate average trip durations and asset turnaround times to predict fleet availability.
+
+
+## How to Run the Analysis ##
+
+1. Clone this repository.
+2. Ensure Python, Pandas, and NumPy are installed in your environment.
+3. Run the interactive Python script via the terminal to filter the massive dataset by city, month, and day to pull specific operational metrics.
 
 ## Core Analysis & Insights ##
 The project methodology focuses on rapid data ingestion, standardizing dataframes across different cities, and writing R scripts to calculate statistical summaries. The analysis answers the following core questions:
